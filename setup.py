@@ -49,7 +49,7 @@ def main():
     # https://stackoverflow.com/questions/1405913/python-32bit-or-64bit-mode
     x64 = sys.maxsize > 2**32
 
-    package_name = "opencv-python"
+    package_name = "opencv-python-fb"
 
     if build_contrib and not build_headless:
         package_name = "opencv-contrib-python"
